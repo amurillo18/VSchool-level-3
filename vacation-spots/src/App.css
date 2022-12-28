@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  gap: 5px;
+ 
+}
+
+.spots-info {
+ border: 1px solid black;
+ border-radius: 5px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly; 
+ height: 250px;
+ width: 500px;
+ align-items: center;
+}

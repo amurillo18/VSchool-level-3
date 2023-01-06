@@ -1,0 +1,26 @@
+.form {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+input {
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+textarea {
+    grid-column: 1 /span 2;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+button {
+    grid-column: 1/ span 2;
+ margin-left: 40%;
+ width: 100px;
+ height: 25px;
+}

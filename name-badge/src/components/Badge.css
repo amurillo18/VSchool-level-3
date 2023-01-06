@@ -1,0 +1,53 @@
+.badge--container {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ grid-template-rows: 1fr 1fr 1fr;
+}
+
+.header {
+grid-column: 1/ span 2;
+grid-row: 1 / span 1 ;
+text-align: left;
+background-color: gray;
+height: 65px;
+}
+
+.badge--info {
+height: 150px;
+margin-top: -60px;
+margin-bottom: 40px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.badge--textArea {
+grid-column: 1 / span 2;
+grid-row: 4;
+border: 1px solid black;
+height: 100px;
+text-align: left;
+}
+
+.name {
+    grid-column: 1 / span 1;
+    grid-row: 1;
+    margin-right: 50px;
+}
+
+.place {
+    grid-column: 1 / span 1;
+    grid-row: 2;
+}
+
+.food {
+    grid-column: 2 / span 1;
+    grid-row: 2;
+}
+
+.email {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+    text-align: left;
+    margin-left: 10px;
+}
